@@ -1,11 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar.jsx"
+import Category from "./components/Category/Category.jsx"
+
 
 function Home(props){
     return(
         <div>
             <Navbar />
-            <h1>Hello World</h1>
+            <section className="container">
+                <Category />
+            </section>  
         </div>
     )
 }

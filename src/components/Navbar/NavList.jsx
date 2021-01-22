@@ -19,7 +19,7 @@ function NavList(){
 
     return(
 
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ps-2">
             <li className="nav-item">
             <div>
                 <Button 
